@@ -1,0 +1,28 @@
+li.dev-item {
+  background-color: #FFF;
+  box-shadow: 0 0 14px 0 rga(0, 0, 0, 0.02);
+  border-radius: 2px;
+  padding: 20px;
+}
+
+li.dev-item header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;  
+}
+
+li.dev-item header img {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+}
+
+li.dev-item header .user-info {
+  margin-left: 10px;
+  flex-grow: 1;
+}
+
+li.dev-item header input {
+  width: 30px;
+  height: 30px;
+}
